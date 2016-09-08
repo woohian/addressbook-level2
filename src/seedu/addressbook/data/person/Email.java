@@ -58,4 +58,8 @@ public class Email {
     public boolean isPrivate() {
         return isPrivate;
     }
+    
+    public String getPrintableString() {
+		return "Email: " + value;
+	}
 }

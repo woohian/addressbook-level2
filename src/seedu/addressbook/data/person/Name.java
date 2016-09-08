@@ -61,4 +61,7 @@ public class Name {
         return fullName.hashCode();
     }
 
+    public String getPrintableString() {
+		return "Name: " + fullName;
+	}
 }
